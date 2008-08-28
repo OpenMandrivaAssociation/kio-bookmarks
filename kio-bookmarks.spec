@@ -1,8 +1,8 @@
 Summary: 	kio-bookmarks
 Name: 		kio-bookmarks
-Version: 	0.1.2
+Version: 	0.2
 Release: 	%mkrel 1
-Source:		http://kde-apps.org/CONTENT/content-files/86516-kio_bookmarks-%version.tar.gz
+Source:		http://kde-apps.org/CONTENT/content-files/86516-kio_bookmarks-%version.tgz
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -23,12 +23,12 @@ Features :
 %doc README TODO
 %{_kde_libdir}/kde4/*.so
 %{_kde_appsdir}/kio_bookmarks
-%{_kde_datadir}/kde4/services/*.protocol
+%{_kde_services}/*
 
 #--------------------------------------------------------------------
 
 %prep
-%setup -qn kio_bookmarks
+%setup -qn kio_bookmarks-%{version}
 
 %build
 %cmake_kde4
