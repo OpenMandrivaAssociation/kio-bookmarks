@@ -1,6 +1,6 @@
 Summary: 	kio-bookmarks
 Name: 		kio-bookmarks
-Version: 	0.2
+Version: 	0.2.1
 Release: 	%mkrel 1
 Source:		http://kde-apps.org/CONTENT/content-files/86516-kio_bookmarks-%version.tgz
 License: 	GPLv2+
