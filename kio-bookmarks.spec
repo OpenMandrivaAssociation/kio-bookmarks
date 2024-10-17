@@ -6,7 +6,7 @@ Source:		http://kde-apps.org/CONTENT/content-files/86516-kio_bookmarks-%version.
 License: 	GPLv2+
 Group: 		Graphical desktop/KDE
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL: 		http://kde-apps.org/content/show.php?content=86516
+URL: 		https://kde-apps.org/content/show.php?content=86516
 BuildRequires:  kdelibs4-devel
 
 %description
